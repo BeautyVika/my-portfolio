@@ -1,0 +1,20 @@
+.footer {
+    background-color: darksalmon;
+    height: 50vh;
+}
+.footerContainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.title {
+    background-color: white;
+}
+.contactContainer {
+    display: flex;
+    gap: 10px;
+}
+.contact {
+    height: 50px;
+    width: 50px;
+    background-color: darkgrey;
+}

@@ -15,6 +15,7 @@ function Skills() {
                    <Skill title='JS' description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}/>
                    <Skill title='React' description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}/>
                </div>
+
            </div>
         </div>
     );

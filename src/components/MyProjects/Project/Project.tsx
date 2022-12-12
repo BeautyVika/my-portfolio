@@ -8,8 +8,8 @@ type ProjectPropsType = {
 function Project(props: ProjectPropsType) {
     return (
         <div className={style.project}>
-            <div className={style.img}>
-                <button className={style.btn}>Смотреть</button>
+            <div className={style.imgContainer}>
+                <a href='#' className={style.btn}>Посмотреть</a>
             </div>
 
                 <span className={style.title}>{props.title}</span>

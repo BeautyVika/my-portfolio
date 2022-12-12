@@ -1,0 +1,30 @@
+.contacts {
+    height: 100vh;
+    background-color: gray;
+}
+.contactsContainer {
+    flex-direction: column;
+}
+.title {
+    background-color: #dcb8ce;
+}
+.contactsForm {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.input {
+    height: 30px;
+    width: 100%;
+}
+.text {
+    height: 70px;
+    width: 100%;
+}
+.btn {
+    margin-top: 25px;
+    height: 50px;
+    width: 150px;
+}
