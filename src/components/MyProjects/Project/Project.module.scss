@@ -1,0 +1,68 @@
+@import "../../Common/Styles/sass/variables";
+@import "../../Common/Styles/sass/mixins";
+.project {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: $bgSecondColor;
+  border: black solid;
+
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: black;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 0.4;
+    }
+
+    .link {
+      background-color: $bgColor;
+      text-decoration: none;
+      border-color: $primaryColor;
+      border-width: 2px;
+      padding: 0.8rem 2.6rem;
+      transition: all .5s ease;
+      border-radius: 50rem;
+      position: relative;
+      z-index: 1;
+      @include text($titleFontFamily, 1rem, 400, 1.5, $primaryColor);
+    }
+  }
+
+  .projectInfo {
+    padding: 10px;
+
+    .projectTitle {
+      @include text($titleFontFamily, 1.15rem, 500, 1.2, $textColor);
+      margin-bottom: 0.5rem;
+      margin-top: 0;
+    }
+
+    .titleDescription {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+      margin-top: 0;
+      @include text(sans-serif, 1rem, 400, 1.5, #dee3e4);
+    }
+  }
+}
+
+

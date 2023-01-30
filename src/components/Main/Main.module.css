@@ -1,7 +1,9 @@
 .mainBlock {
     height: 100vh;
-    background-color: #b9f1dd;
+    background-color: #1f1f20;
+    padding: 100px 0;
 }
+
 .greeting {
     width: 300px;
     background-color: white;
@@ -11,3 +13,4 @@
     height: 400px;
     background-color: white;
 }
+

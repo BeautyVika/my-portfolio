@@ -5,7 +5,7 @@ import styleContainer from '../Common/Styles/Container.module.css'
 function Main() {
     return (
         <div className={style.mainBlock}>
-            <div className={styleContainer.container}>
+            <div className={styleContainer.container }>
                 <div className={style.greeting}>
                     <span>Hi, there!</span>
                     <h1>I am Victoria Petuchova</h1>

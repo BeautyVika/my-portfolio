@@ -1,0 +1,41 @@
+@import "../../styles/sass/variables";
+.containerTitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 3rem;
+
+    h2 {
+        font-family: Poppins, sans-serif;
+        text-align: center;
+        opacity: .1;
+        text-transform: uppercase;
+        line-height: 1.3;
+        font-weight: 600;
+        color: #6c757d;
+        font-size: calc(1.95rem + 8.4vw);
+    }
+
+    .titleProjects {
+        font-family: Poppins, sans-serif;
+        font-weight: 600;
+        line-height: 1.5;
+        font-size: 2.25rem;
+        color: $textColor;
+        width: 100%;
+        position: absolute;
+    }
+}
+
+
+
+/*.titleProjects::after{*/
+/*    content: '';*/
+/*    color: #20c997!important;*/
+/*    width: 55px;*/
+/*    height: 10px;*/
+/*    position: absolute;*/
+/*    bottom: -20px;*/
+/*}*/

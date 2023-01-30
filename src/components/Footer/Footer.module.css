@@ -1,5 +1,6 @@
 .footer {
-    background-color: darksalmon;
+   padding: 80px 0;
+    background-color: #1f1f20;
     height: 50vh;
 }
 .footerContainer {
@@ -7,7 +8,11 @@
     flex-wrap: wrap;
 }
 .title {
-    background-color: white;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 2rem;
+    color: #fff;
 }
 .contactContainer {
     display: flex;
@@ -17,4 +22,10 @@
     height: 50px;
     width: 50px;
     background-color: darkgrey;
+}
+
+@media screen and (max-width: 753px){
+    .title{
+        margin-bottom: 50px;
+    }
 }

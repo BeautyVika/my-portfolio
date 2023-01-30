@@ -7,7 +7,7 @@ function Footer() {
     return (
         <footer className={style.footer}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <h2 className={style.title}>Victoria Petuhova</h2>
+                <p className={style.title}>Victoria Petuhova</p>
 
                 <div className={style.contactContainer}>
                     <div className={style.contact}></div>
@@ -16,7 +16,7 @@ function Footer() {
                     <div className={style.contact}></div>
                 </div>
 
-                <span>Все права защищены.</span>
+                {/*<span className={style.title}>Все права защищены.</span>*/}
 
             </div>
         </footer>
