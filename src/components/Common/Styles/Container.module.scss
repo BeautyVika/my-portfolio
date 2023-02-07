@@ -2,15 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*border: 1px solid;*/
     height: 100%;
     width: 80%;
     margin: 0 auto;
     flex-wrap: wrap;
-}
-
-@media screen and (max-width: 753px) {
-    .container {
+    @media screen and (max-width: 753px) {
         justify-content: center;
     }
 }
+

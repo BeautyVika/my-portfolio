@@ -1,6 +1,6 @@
 import React from "react";
 import style from './Footer.module.css'
-import styleContainer from "../Common/Styles/Container.module.css";
+import styleContainer from "../Common/Styles/Container.module.scss";
 
 
 

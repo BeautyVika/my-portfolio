@@ -2,39 +2,39 @@
 @import "../../Common/Styles/sass/mixins";
 
 .skill {
-    width: 260px;
-    background-color: #1f1f20;
-    text-align: center;
-    @include flex(column, space-between, center, wrap);
-    margin-bottom: 10px;
+  width: 260px;
+  background-color: #1f1f20;
+  text-align: center;
+  @include flex(column, space-between, center, wrap);
+  margin-bottom: 10px;
 
-    .icon {
-        width: 60px;
-        height: 60px;
-        background-color: $bgSecondColor;
-        transform: rotate(45deg);
-        @include flex(row, center, center, nowrap);
-        margin: 20px 0;
+  .icon {
+    width: 60px;
+    height: 60px;
+    background-color: $bgSecondColor;
+    transform: rotate(45deg);
+    @include flex(row, center, center, nowrap);
+    margin: 20px 0;
 
-        img {
-            width: 55%;
-            transform: rotate(-45deg)
-        }
+    img {
+      width: 55%;
+      transform: rotate(-45deg)
     }
+  }
 
-    h3 {
-        @include text($titleFontFamily, 1.15rem, 500, 1.2, $textColor);
-        margin-bottom: 0.5rem;
-        margin-top: 0;
-    }
+  h3 {
+    @include text($titleFontFamily, 1.15rem, 500, 1.2, $textColor);
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+  }
 
-    .description {
-        @include text(sans-serif, 1rem, 400, 1.5, #dee3e4);
-        @include flex(row, center, center, wrap);
-        width: 100%;
-        margin-bottom: 1rem;
-        margin-top: 0;
-    }
+  .description {
+    @include text(sans-serif, 1rem, 400, 1.5, #dee3e4);
+    @include flex(row, center, center, wrap);
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
 }
 
 

@@ -1,6 +1,6 @@
 import React from "react";
 import style from './MyProjects.module.scss'
-import styleContainer from '../Common/Styles/Container.module.css'
+import styleContainer from '../Common/Styles/Container.module.scss'
 import Project from "./Project/Project";
 import Title from "../Common/components/Title/Title";
 import todoImg from "../../assets/img/todo.jpg"

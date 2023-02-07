@@ -1,15 +1,15 @@
 import React from "react"
 import style from './Skills.module.scss'
-import styleContainer from '../Common/Styles/Container.module.css'
+import styleContainer from '../Common/Styles/Container.module.scss'
 import Skill from "./Skill/Skill"
 import Title from "../Common/components/Title/Title"
 import jsIcon from "../../assets/icons/js-icon.svg"
 import htmlIcon from "../../assets/icons/html-icon.svg"
 import reactIcon from "../../assets/icons/react-icon.svg"
-import gitIcon from "../../assets/icons/git.png"
-import reduxIcon from "../../assets/icons/redux.png"
+import gitIcon from "../../assets/icons/Git-Icon-1788C.png"
+import reduxIcon from "../../assets/icons/redux-icon.png"
 import unitIcon from "../../assets/icons/unit-test.png"
-import restIcon from "../../assets/icons/rest-api.jpg"
+import restIcon from "../../assets/icons/rest.png"
 
 function Skills() {
 
