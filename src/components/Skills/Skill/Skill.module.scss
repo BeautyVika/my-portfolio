@@ -16,8 +16,10 @@
     @include flex(row, center, center, nowrap);
     margin: 20px 0;
 
-    img {
-      width: 55%;
+    .img {
+      //width: 55%;
+      font-size: 30px;
+      color: $primaryColor;
       transform: rotate(-45deg)
     }
   }

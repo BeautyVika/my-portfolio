@@ -1,0 +1,19 @@
+@import "../Common/Styles/sass/_variables.scss";
+@import "../Common/Styles/sass/mixins";
+
+.footer {
+  background-color: $bgColor;
+  height: 40vh;
+
+  .footerContainer {
+    @include flex(row, space-between, center, wrap);
+
+    .title {
+      @include text($titleFontFamily, 1rem, 600, 1.8, hsla(0, 0%, 98%, .8));
+
+      @media screen and (max-width: 753px) {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
