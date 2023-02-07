@@ -7,9 +7,12 @@ function Main() {
         <div className={style.mainBlock}>
             <div className={styleContainer.container }>
                 <div className={style.greeting}>
-                    <span>Hi, there!</span>
-                    <h1>I am Victoria Petuchova</h1>
-                    <p>Frontend Developer</p>
+                    <span className={style.titleGreeting}>Welcome! My name is</span>
+                    <h1>Victoria Petuchova</h1>
+                    <p>FRONT-END DEVELOPER</p>
+                    <div className={style.btn}>
+                        <a href='#' >My CV</a>
+                    </div>
                 </div>
                 <div className={style.photo}></div>
 

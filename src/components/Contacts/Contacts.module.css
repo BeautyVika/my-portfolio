@@ -1,25 +1,83 @@
 .contacts {
     background-color: #4c4d4d;
+    padding: 100px 0;
 }
 .contactsContainer {
+    display: flex;
     flex-direction: column;
 }
 
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    font-family: Poppins, sans-serif;
+    line-height: 1.2;
+    color: #fff;
+}
 .contactsForm {
     display: flex;
     flex-direction: column;
-    width: 230px;
     gap: 15px;
     flex-wrap: wrap;
+    width: 50%;
+
 }
 .input {
-    height: 30px;
+    background: #232a31;
     width: 100%;
+    height: inherit;
+    padding: 0.81rem 0.96rem;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    appearance: none;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #4c4d4d;
+    font-family: Poppins,sans-serif;
 }
+
 .text {
-    height: 70px;
     width: 100%;
+    min-height: calc(1.5em + 0.75rem + 2px);
+    font-size: 16px;
+    height: inherit;
+    padding: 0.81rem 0.96rem;
+    background: #232a31;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    appearance: none;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #4c4d4d;
+    font-family: Poppins,sans-serif;
 }
 .btn {
-    padding: 10px 20px;
+    border-width: 1px;
+    padding: 0.8rem 2.6rem;
+    transition: all .5s ease;
+    border-radius: 50rem;
+    cursor: pointer;
+    background-color: #20c997;
+    border-color: #20c997;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Poppins,sans-serif;
+    text-align: center;
+    color: #fff;
+    width: 30%;
+}
+
+@media screen and (max-width: 950px){
+    .text .input {
+        font-size: 10px;
+    }
+    .btn {
+        width: 80%;
+        font-size: 0.7rem;
+    }
 }

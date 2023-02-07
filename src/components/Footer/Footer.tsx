@@ -3,6 +3,7 @@ import style from './Footer.module.css'
 import styleContainer from "../Common/Styles/Container.module.css";
 
 
+
 function Footer() {
     return (
         <footer className={style.footer}>
@@ -10,7 +11,8 @@ function Footer() {
                 <p className={style.title}>Victoria Petuhova</p>
 
                 <div className={style.contactContainer}>
-                    <div className={style.contact}></div>
+                    <div className={style.contact}>
+                    </div>
                     <div className={style.contact}></div>
                     <div className={style.contact}></div>
                     <div className={style.contact}></div>

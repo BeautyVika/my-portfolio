@@ -9,16 +9,17 @@ function Contacts() {
         <div className={style.contacts}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
 
-                <Title mainTitle='Contacts' title='Get in touch'/>
-                {/*<h2 className={style.Title}>Contacts</h2>*/}
+                <Title mainTitle='Contact' title='Get in touch'/>
 
-                <form className={style.contactsForm}>
-                    <input type="text" className={style.input}/>
-                    <input type="text" className={style.input}/>
-                    <textarea className={style.text}/>
-                    <button type="submit" className={style.btn}>Отправить</button>
-                </form>
+                <h3>I am available for freelance work.</h3>
+                {/*<h3>Connect with me via phone: +375(29) 667 23 75 or email: vikachk54@gmail.com</h3>*/}
 
+                    <form className={style.contactsForm}>
+                        <input type="text" className={style.input} placeholder='Name'/>
+                        <input type="text" className={style.input} placeholder='E-mail'/>
+                        <textarea className={style.text} placeholder='Tell me more about you needs...'/>
+                        <button type="submit" className={style.btn}>Send message</button>
+                    </form>
             </div>
 
         </div>
