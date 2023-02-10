@@ -26,16 +26,15 @@
         color: $textColor;
         width: 100%;
         position: absolute;
+        .line{
+            display: block;
+            width: 80px;
+            height: 1px;
+            background-color: #20c997;
+            opacity: 1;
+            position: absolute;
+            bottom: -10px;
+            left: 45%
+        }
     }
 }
-
-
-
-/*.titleProjects::after{*/
-/*    content: '';*/
-/*    color: #20c997!important;*/
-/*    width: 55px;*/
-/*    height: 10px;*/
-/*    position: absolute;*/
-/*    bottom: -20px;*/
-/*}*/
