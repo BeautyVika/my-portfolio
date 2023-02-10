@@ -57,13 +57,18 @@
         @include text($titleFontFamily, 1rem, 400, 1.5, $textColor);
         border-width: 1px;
         padding: 0.8rem 2.6rem;
-        transition: all .5s ease;
         border-radius: 50rem;
         cursor: pointer;
-        background-color: #20c997;
-        border-color: #20c997;
+        background-color: $primaryColor;
+        border-color: $primaryColor;
         text-align: center;
         width: 30%;
+        &:hover{
+          color: $primaryColor;
+          background-color: $bgSecondColor;
+          border: 1px solid $primaryColor;
+          transition: all .5s ease;
+        }
         @media screen and (max-width: 950px) {
           width: 80%;
           font-size: 0.7rem;

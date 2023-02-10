@@ -34,6 +34,14 @@
             font-weight: 500;
             padding: 0.8rem 2.6rem;
             width: 140px;
+            cursor: pointer;
+            &:hover{
+                background-color: #20c997;
+                color: $textColor;
+            }
+            &:hover a{
+                color: $textColor;
+            }
 
             a {
                 text-decoration: none;

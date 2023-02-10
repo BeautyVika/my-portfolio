@@ -1,5 +1,5 @@
 import React from "react";
-import style from './ContactButtonGroup.module.css'
+import style from './ContactButtonGroup.module.scss'
 import {FiMail} from "@react-icons/all-files/fi/FiMail";
 import {FaGithub} from "@react-icons/all-files/fa/FaGithub";
 import {FaTelegram} from "@react-icons/all-files/fa/FaTelegram";

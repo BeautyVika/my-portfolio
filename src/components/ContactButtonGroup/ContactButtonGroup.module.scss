@@ -1,0 +1,12 @@
+.icon {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 8px;
+
+  &:hover {
+    color: #20c997;
+    transform: translateY(-5px);
+    transition: 0.5s;
+  }
+}
+

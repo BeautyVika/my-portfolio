@@ -36,11 +36,14 @@
       border-color: $primaryColor;
       border-width: 2px;
       padding: 0.8rem 2.6rem;
-      transition: all .5s ease;
       border-radius: 50rem;
       position: relative;
       z-index: 1;
       @include text($titleFontFamily, 1rem, 400, 1.5, $primaryColor);
+      &:hover{
+        transition: all .5s ease;
+        font-size: 1.5rem;
+      }
     }
   }
 
