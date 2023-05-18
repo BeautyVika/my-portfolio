@@ -20,6 +20,11 @@
       gap: 15px;
       flex-wrap: wrap;
       width: 50%;
+      align-items: center;
+
+      @media screen and (max-width: 500px) {
+        width: 70%;
+      }
 
       .input {
         @include text($titleFontFamily, 16px, 400, 1.5, $bgSecondColor);
@@ -47,7 +52,7 @@
         border-radius: 0.375rem;
         appearance: none;
         transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-        @media screen and (max-width: 950px) {
+        @media screen and (max-width: 885px) {
           font-size: 10px;
         }
       }
@@ -62,14 +67,14 @@
         background-color: $primaryColor;
         border-color: $primaryColor;
         text-align: center;
-        width: 30%;
+        width: 40%;
         &:hover{
           color: $primaryColor;
           background-color: $bgSecondColor;
           border: 1px solid $primaryColor;
           transition: all .5s ease;
         }
-        @media screen and (max-width: 950px) {
+        @media screen and (max-width: 885px) {
           width: 80%;
           font-size: 0.7rem;
         }

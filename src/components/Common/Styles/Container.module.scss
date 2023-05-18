@@ -1,13 +1,13 @@
+@import "./sass/mixins";
+
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    @media screen and (max-width: 753px) {
+    @include container();
+    @include flex(row, space-between, center, row);
+
+    @media screen and (max-width: 885px) {
         justify-content: center;
+        flex-direction: column;
     }
 }
 

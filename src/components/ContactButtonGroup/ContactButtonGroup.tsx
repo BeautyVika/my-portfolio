@@ -10,12 +10,21 @@ import {AiFillLinkedin} from "@react-icons/all-files/ai/AiFillLinkedin";
 function ContactButtonGroup() {
     return (
         <div className={style.contactButtonGroup}>
-            <AiFillLinkedin className={style.icon}/>
-            <FiMail className={style.icon}/>
-            <FaGithub className={style.icon}/>
-            <FaTelegram className={style.icon}/>
-            <SiCodewars className={style.icon}/>
-
+            <a href=''>
+                <AiFillLinkedin className={style.icon}/>
+            </a>
+            <a href=''>
+                <FiMail className={style.icon}/>
+            </a>
+            <a href=''>
+                <FaGithub className={style.icon}/>
+            </a>
+            <a href=''>
+                <FaTelegram className={style.icon}/>
+            </a>
+            <a href=''>
+                <SiCodewars className={style.icon}/>
+            </a>
 
         </div>
     )

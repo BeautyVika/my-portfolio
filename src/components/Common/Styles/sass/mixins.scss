@@ -14,3 +14,7 @@
   align-items: $alignItems;
   flex-wrap: $wrap;
 }
+@mixin container() {
+  width: 80%;
+  margin: 0 auto;
+}

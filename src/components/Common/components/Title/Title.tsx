@@ -9,7 +9,6 @@ function Title(props: {mainTitle: string, title: string}) {
                 {props.title}
                 <span className={style.line}></span>
             </p>
-            {/*<span className={style.line}></span>*/}
         </div>
 
     )
