@@ -1,11 +1,18 @@
-@import "../common/styles/sass/variables";
-@import "../common/styles/sass/mixins";
+@import "../../Common/Styles/sass/variables";
+@import "../../Common/Styles/sass/mixins";
 
 .nav {
   width: 300px;
   display: flex;
   justify-content: space-between;
   margin-left: 18px;
+  @media screen and (max-width: 885px){
+
+  }
+
+  .active{
+    color: $primaryColor;
+  }
 
   a {
     cursor: pointer;

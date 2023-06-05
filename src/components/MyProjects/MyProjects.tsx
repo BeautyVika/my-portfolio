@@ -6,6 +6,8 @@ import Title from "../Common/components/Title/Title"
 import todoImg from "../../assets/img/tasksTracker.png"
 import socialImg from "../../assets/img/socialnetwork.png"
 import cardsTrainer from "../../assets/img/cards-trainer.png"
+import {LINKS} from "../Common/constants/constants"
+import {createProjectStyle} from "../Common/utils/utils"
 
 type ProjectsType = {
     title: string
@@ -20,26 +22,26 @@ function MyProjects() {
     const projects: ProjectsType[] = [
         {
             title: 'Tasks tracker',
-            style: {backgroundImage: `url(${todoImg})`},
+            style: createProjectStyle(todoImg),
             titleDescription: 'Stack: React, Redux-Toolkit, Redux-thunk, TS, Formik, MUI, Axios, ' +
                     'React-Router-dom, Prettier',
-            demoLink: 'https://github.com/BeautyVika/Tasks-Tracker',
-            codeLink: 'https://github.com/BeautyVika/Tasks-Tracker'
+            demoLink: LINKS.TASKS_DEMO,
+            codeLink: LINKS.TASKS_CODE
         },
         {
             title: 'Social network',
-            style: {backgroundImage: `url(${socialImg})`},
+            style: createProjectStyle(socialImg),
             titleDescription: 'Stack: React, Redux, Redux-thunk, TS, Axios,Redux-form, Reselect, React-Router-dom',
-            demoLink: 'https://beautyvika.github.io/social-network/',
-            codeLink: 'https://github.com/BeautyVika/social-network'
+            demoLink: LINKS.SOCIAL_NETWORK_DEMO,
+            codeLink: LINKS.SOCIAL_NETWORK_CODE
         },
         {
             title: 'Cards trainer',
-            style: {backgroundImage: `url(${cardsTrainer})`},
+            style: createProjectStyle(cardsTrainer),
             titleDescription: 'Stack: React, Redux-thunk, Redux-Toolkit, TS, Axios, ' +
                 'React-Hook-Form, React-Router-dom, Eslint, Prettier ',
-            demoLink: 'https://beautyvika.github.io/cards-training/',
-            codeLink: 'https://github.com/BeautyVika/cards-training'
+            demoLink: LINKS.CARDS_DEMO,
+            codeLink: LINKS.CARDS_CODE
         },
     ]
 

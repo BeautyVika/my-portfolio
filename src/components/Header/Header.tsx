@@ -1,7 +1,7 @@
-import React from "react";
-import style from './Header.module.scss';
-import Nav from "../Nav/Nav";
-import ContactButtonGroup from "../ContactButtonGroup/ContactButtonGroup";
+import React from "react"
+import style from './Header.module.scss'
+import ContactButtonGroup from "../ContactButtonGroup/ContactButtonGroup"
+import Nav from "./Nav/Nav"
 
 function Header() {
     return (
@@ -9,7 +9,7 @@ function Header() {
             <Nav/>
             <ContactButtonGroup/>
         </div>
-    );
+    )
 }
 
-export default Header;
+export default Header
