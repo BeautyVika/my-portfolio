@@ -1,8 +1,8 @@
-import style from "../Main.module.scss";
-import Particles from "react-tsparticles";
-import {FC, useCallback} from "react";
-import {Container, Engine} from "tsparticles-engine";
-import {loadFull} from "tsparticles";
+import style from "../Main.module.scss"
+import Particles from "react-tsparticles"
+import {FC, useCallback} from "react"
+import {Container, Engine} from "tsparticles-engine"
+import {loadFull} from "tsparticles"
 
 export const Particle: FC = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
@@ -91,7 +91,6 @@ export const Particle: FC = () => {
                            }
                        },
                        "retina_detect": true
-
                    }}/>
     )
 }

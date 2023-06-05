@@ -1,8 +1,8 @@
-import React from "react";
+import React from "react"
 import style from './Contacts.module.scss'
-import styleContainer from "../Common/Styles/Container.module.scss";
-import Title from "../Common/components/Title/Title";
-
+import styleContainer from "../Common/Styles/Container.module.scss"
+import Title from "../Common/components/Title/Title"
+import ReactTypingEffect from "react-typing-effect"
 
 function Contacts() {
     return (
@@ -11,7 +11,9 @@ function Contacts() {
 
                 <Title mainTitle='Contact' title='Get in touch'/>
 
-                <h3>I am available for freelance work.</h3>
+                <h3>
+                    <ReactTypingEffect text={'I am available for freelance work.'}/>
+                </h3>
 
                 <form className={style.contactsForm}>
                     <input type="text" className={style.input} placeholder='Name'/>
@@ -22,7 +24,7 @@ function Contacts() {
             </div>
 
         </div>
-    );
+    )
 }
 
-export default Contacts;
+export default Contacts

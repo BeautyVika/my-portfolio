@@ -1,6 +1,5 @@
-import React from "react";
-import style from './Skill.module.scss';
-
+import React from "react"
+import style from './Skill.module.scss'
 
 type SkillPropsType = {
     title: string
@@ -17,7 +16,7 @@ function Skill(props: SkillPropsType) {
             <h3>{props.title}</h3>
             <span className={style.description}>{props.description}</span>
         </div>
-    );
+    )
 }
 
-export default Skill;
+export default Skill
