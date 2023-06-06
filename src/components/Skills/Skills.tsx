@@ -1,8 +1,8 @@
-import React from "react"
+import React, {FC} from "react"
 import style from './Skills.module.scss'
 import styleContainer from '../Common/Styles/Container.module.scss'
-import Title from "../Common/components/Title/Title"
-import Skill from "./Skill/Skill"
+import {Title} from "../Common/components/Title/Title"
+import {Skill} from "./Skill/Skill"
 import {AiFillHtml5} from "@react-icons/all-files/ai/AiFillHtml5"
 import {DiJavascript1} from '@react-icons/all-files/di/DiJavascript1'
 import {DiCss3} from '@react-icons/all-files/di/DiCss3'
@@ -19,7 +19,7 @@ type SkillsType = {
     description: string
 }
 
-function Skills() {
+export const Skills: FC = () => {
 
     const skills: SkillsType[] = [
         {
@@ -87,5 +87,3 @@ function Skills() {
         </div>
     )
 }
-
-export default Skills

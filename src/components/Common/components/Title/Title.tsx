@@ -1,16 +1,20 @@
-import React from "react";
+import React, {FC} from "react";
 import style from './Title.module.scss'
 
-function Title(props: {mainTitle: string, title: string}) {
+type TitlePropsType = {
+    mainTitle: string,
+    title: string
+}
+
+export const Title: FC<TitlePropsType> = ({title, mainTitle}) => {
     return (
         <div className={style.containerTitle}>
-            <h2>{props.mainTitle}</h2>
+            <h2>{mainTitle}</h2>
             <p className={style.titleProjects}>
-                {props.title}
+                {title}
                 <span className={style.line}></span>
             </p>
         </div>
 
     )
 }
-export default Title

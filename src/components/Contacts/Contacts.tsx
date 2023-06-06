@@ -1,10 +1,10 @@
-import React from "react"
+import React, {FC} from "react"
 import style from './Contacts.module.scss'
 import styleContainer from "../Common/Styles/Container.module.scss"
-import Title from "../Common/components/Title/Title"
+import {Title} from "../Common/components/Title/Title"
 import ReactTypingEffect from "react-typing-effect"
 
-function Contacts() {
+export const Contacts: FC = () => {
     return (
         <div className={style.contacts}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
@@ -26,5 +26,3 @@ function Contacts() {
         </div>
     )
 }
-
-export default Contacts

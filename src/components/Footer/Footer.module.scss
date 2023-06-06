@@ -4,15 +4,23 @@
 .footer {
   background-color: $bgColor;
   height: 40vh;
+  @media screen and (max-width: 753px) {
+    margin-bottom: 50px;
+    @include flex(column, space-between, center, wrap);
+  }
 
   .footerContainer {
     @include flex(row, space-between, center, wrap);
+    @media screen and (max-width: 753px) {
+      @include flex(column, space-around, center, wrap);
+    }
 
     .title {
       @include text($titleFontFamily, 1rem, 600, 1.8, hsla(0, 0%, 98%, .8));
 
       @media screen and (max-width: 753px) {
         margin-bottom: 50px;
+        @include flex(column, space-between, center, wrap);
       }
     }
   }

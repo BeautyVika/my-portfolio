@@ -1,11 +1,9 @@
-import React from "react";
+import React, {FC} from "react";
 import style from './Footer.module.scss'
 import styleContainer from "../Common/Styles/Container.module.scss";
-import ContactButtonGroup from "../ContactButtonGroup/ContactButtonGroup";
+import {ContactButtonGroup} from "../ContactButtonGroup/ContactButtonGroup";
 
-
-
-function Footer() {
+export const Footer: FC = () => {
     return (
         <footer className={style.footer}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
@@ -15,7 +13,5 @@ function Footer() {
 
             </div>
         </footer>
-    );
+    )
 }
-
-export default Footer;

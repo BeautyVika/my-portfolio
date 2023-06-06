@@ -1,8 +1,8 @@
-import React from "react"
+import React, {FC} from "react"
 import style from './MyProjects.module.scss'
 import styleContainer from '../Common/Styles/Container.module.scss'
-import Project from "./Project/Project"
-import Title from "../Common/components/Title/Title"
+import {Project} from "./Project/Project"
+import {Title} from "../Common/components/Title/Title"
 import todoImg from "../../assets/img/tasksTracker.png"
 import socialImg from "../../assets/img/socialnetwork.png"
 import cardsTrainer from "../../assets/img/cards-trainer.png"
@@ -17,7 +17,7 @@ type ProjectsType = {
     codeLink: string
 }
 
-function MyProjects() {
+export const MyProjects: FC = () => {
 
     const projects: ProjectsType[] = [
         {
@@ -67,5 +67,3 @@ function MyProjects() {
         </div>
     );
 }
-
-export default MyProjects;

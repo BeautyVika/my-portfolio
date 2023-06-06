@@ -1,4 +1,4 @@
-import React from "react"
+import React, {FC} from "react"
 import style from './Main.module.scss'
 import styleContainer from '../Common/Styles/Container.module.scss'
 import myPhoto from '../../assets/img/myPhoto.png'
@@ -7,7 +7,7 @@ import {Fade} from 'react-awesome-reveal'
 import ReactTypingEffect from "react-typing-effect"
 import { Tilt } from 'react-tilt'
 
-function Main() {
+export const Main: FC = () => {
     return (
         <div className={style.mainBlock}>
 
@@ -34,5 +34,4 @@ function Main() {
     )
 }
 
-export default Main;
 

@@ -1,6 +1,6 @@
 import React, {FC} from "react"
 import style from './Header.module.scss'
-import ContactButtonGroup from "../ContactButtonGroup/ContactButtonGroup"
+import {ContactButtonGroup} from "../ContactButtonGroup/ContactButtonGroup"
 import {Nav} from "./Nav/Nav"
 import {GiHamburgerMenu} from '@react-icons/all-files/gi/GiHamburgerMenu'
 

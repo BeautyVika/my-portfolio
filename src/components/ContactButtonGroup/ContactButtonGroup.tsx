@@ -1,4 +1,4 @@
-import React from "react"
+import React, {FC} from "react"
 import style from './ContactButtonGroup.module.scss'
 import {FiMail} from "@react-icons/all-files/fi/FiMail"
 import {FaGithub} from "@react-icons/all-files/fa/FaGithub"
@@ -8,7 +8,7 @@ import {AiFillLinkedin} from "@react-icons/all-files/ai/AiFillLinkedin"
 import {LINKS, PATH} from "../Common/constants/constants"
 import {NavLink} from "react-router-dom";
 
-function ContactButtonGroup() {
+export const ContactButtonGroup: FC = () => {
     return (
         <div className={style.contactButtonGroup}>
             {/*<a href=''>*/}
@@ -30,5 +30,3 @@ function ContactButtonGroup() {
         </div>
     )
 }
-
-export default ContactButtonGroup

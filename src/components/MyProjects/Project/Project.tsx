@@ -1,4 +1,4 @@
-import React from "react"
+import React, {FC} from "react"
 import style from './Project.module.scss'
 import {BsArrowRight} from "@react-icons/all-files/bs/BsArrowRight"
 import {Fade} from "react-awesome-reveal"
@@ -10,7 +10,7 @@ type ProjectPropsType = {
     demoLink: string
     codeLink: string
 }
-function Project(props: ProjectPropsType) {
+export const Project: FC<ProjectPropsType> = (props: ProjectPropsType) => {
     return (
         <Fade>
             <div className={style.project}>
@@ -31,5 +31,3 @@ function Project(props: ProjectPropsType) {
         </Fade>
     )
 }
-
-export default Project

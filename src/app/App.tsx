@@ -1,14 +1,14 @@
 import React, {useEffect, useState} from 'react'
 import './App.css'
-import {Header} from './components/Header/Header'
-import Main from "./components/Main/Main"
-import Skills from "./components/Skills/Skills"
-import MyProjects from "./components/MyProjects/MyProjects"
-import Contacts from "./components/Contacts/Contacts"
-import Footer from "./components/Footer/Footer"
+import {Header} from "../components/Header/Header"
+import {SideBar} from "../components/SideBar/SideBar"
 import {Navigate, Route, Routes} from "react-router-dom"
-import {PATH} from "./components/Common/constants/constants"
-import {SideBar} from "./components/SideBar/SideBar"
+import {PATH} from "../components/Common/constants/constants"
+import {Main} from "../components/Main/Main"
+import {Contacts} from "../components/Contacts/Contacts"
+import {Footer} from "../components/Footer/Footer"
+import {Skills} from "../components/Skills/Skills"
+import {MyProjects} from "../components/MyProjects/MyProjects"
 
 function App() {
     const [open, setOpen] = useState(false)
