@@ -1,4 +1,17 @@
 @import "../common/styles/sass/variables";
+
+@media screen and (max-width: 885px){
+    .desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 885px){
+    .mobile{
+        display: none;
+    }
+}
+
 .header {
     height: 80px;
     position: fixed;
@@ -10,7 +23,9 @@
     align-items: center;
     justify-content: space-between;
     z-index: 2;
-    @media screen and (max-width: 885px){
-
+    .burger {
+        font-size: 30px;
+        margin-left: 15px;
+        cursor: pointer;
     }
 }

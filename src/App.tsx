@@ -1,6 +1,6 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import './App.css'
-import Header from './components/Header/Header'
+import {Header} from './components/Header/Header'
 import Main from "./components/Main/Main"
 import Skills from "./components/Skills/Skills"
 import MyProjects from "./components/MyProjects/MyProjects"
@@ -8,11 +8,22 @@ import Contacts from "./components/Contacts/Contacts"
 import Footer from "./components/Footer/Footer"
 import {Navigate, Route, Routes} from "react-router-dom"
 import {PATH} from "./components/Common/constants/constants"
+import {SideBar} from "./components/SideBar/SideBar"
 
 function App() {
+    const [open, setOpen] = useState(false)
+    const handleOpen = () => setOpen(true)
+    const handleClose = () => setOpen(false)
+
+    useEffect(() => {
+        open && (document.body.style.overflow = 'hidden')
+        !open && (document.body.style.overflow = 'unset')
+    }, [open])
+
     return (
         <div className="App">
-            <Header/>
+            <Header handleOpen={handleOpen} />
+            <SideBar open={open} handleClose={handleClose}/>
             <Routes>
                 <Route path='/' element={<Navigate to={PATH.MAIN}/>}/>
                 <Route path={PATH.MAIN} element={<Main/>}/>

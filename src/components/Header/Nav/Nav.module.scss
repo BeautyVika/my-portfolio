@@ -6,9 +6,6 @@
   display: flex;
   justify-content: space-between;
   margin-left: 18px;
-  @media screen and (max-width: 885px){
-
-  }
 
   .active{
     color: $primaryColor;

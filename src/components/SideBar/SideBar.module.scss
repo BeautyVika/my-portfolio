@@ -1,0 +1,50 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
+
+.sidebar {
+  padding: 10px;
+  position: fixed;
+  width: 270px;
+  height: 100%;
+  background: $bgColor;
+  transform: translateX(-100%);
+  transition: 0.5s;
+  z-index: 101;
+  font-size: 25px;
+  top: 0;
+}
+
+.sidebar.open {
+  transform: translateX(+0%);
+
+  .closeIcon {
+    cursor: pointer;
+    color: $textColor;
+  }
+
+  & :hover {
+    color: $primaryColor;
+  }
+}
+.background{
+  position: fixed;
+  z-index: 1;
+  width: 1000vw;
+  height: 100vh;
+  background: $bgSecondColor;
+  opacity: 0.3;
+  top: 0;
+}
+.nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin-left: 0;
+  width: auto;
+  a {
+    @include text($titleFontFamily, 1.5rem, 300, 1.2, hsla(0, 0%, 98%, .9));
+
+  }
+}
