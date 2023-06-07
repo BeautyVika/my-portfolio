@@ -15,6 +15,14 @@
       @include flex(column, space-around, center, wrap);
     }
 
+    .find {
+      @include flex(row, space-between, center, wrap);
+      gap: 15px;
+      .row{
+        color: $primaryColor;
+      }
+    }
+
     .title {
       @include text($titleFontFamily, 1rem, 600, 1.8, hsla(0, 0%, 98%, .8));
 

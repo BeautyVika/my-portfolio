@@ -11,6 +11,12 @@ export const Contacts: FC = () => {
 
                 <Title mainTitle='Contact' title='Get in touch'/>
                 <ReactTypingEffect text={'I am available for freelance work.'} className={style.text}/>
+                <p className={style.text}>
+                    Connect with me via phone: 8029 - 667 - 23 -75
+                </p>
+                <p className={style.text}>
+                    Email: vikachk54@gmail.com
+                </p>
 
 
                 <form className={style.contactsForm}>

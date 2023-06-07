@@ -3,9 +3,9 @@ import style from './MyProjects.module.scss'
 import styleContainer from '../Common/Styles/Container.module.scss'
 import {Project} from "./Project/Project"
 import {Title} from "../Common/components/Title/Title"
-import todoImg from "../../assets/img/tasksTracker.png"
-import socialImg from "../../assets/img/socialnetwork.png"
-import cardsTrainer from "../../assets/img/cards-trainer.png"
+import todoImg from "../../assets/img/tasks_traker.png"
+import socialImg from "../../assets/img/social_network.png"
+import cardsTrainer from "../../assets/img/cards_trainer.png"
 import {LINKS} from "../Common/constants/constants"
 import {createProjectStyle} from "../Common/utils/utils"
 

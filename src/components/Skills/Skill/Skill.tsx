@@ -14,7 +14,7 @@ export const Skill: FC<SkillPropsType> = ({title , icon, description})=>{
                 <div className={style.img}>{icon}</div>
             </div>
             <h3>{title}</h3>
-            <span className={style.description}>{description}</span>
+            <p className={style.description}>{description}</p>
         </div>
     )
 }

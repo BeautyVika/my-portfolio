@@ -18,6 +18,10 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    &:hover {
+      transform: translateY(-5px);
+      transition: 0.3s;
+    }
 
     &::before {
       position: absolute;

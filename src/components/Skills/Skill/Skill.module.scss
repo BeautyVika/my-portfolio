@@ -2,11 +2,31 @@
 @import "../../Common/Styles/sass/mixins";
 
 .skill {
-  width: 260px;
+  width: 450px;
+  min-height: 200px;
   background-color: #1f1f20;
   text-align: center;
   @include flex(column, space-between, center, wrap);
   margin-bottom: 10px;
+  @media screen and (max-width: 564px) {
+    width: 350px;
+  }
+  &:hover {
+    background-image: -webkit-gradient(linear,left top,right top,from(#a2db70),to($primaryColor));
+    background-image: -webkit-linear-gradient(left,#a2db70,$primaryColor);
+    background-image: linear-gradient(90deg,#a2db70, $primaryColor);
+    transform: translateY(-5px);
+    transition: 0.3s;
+    .icon {
+      color: $bgSecondColor;
+    }
+    h3 {
+      color: $bgSecondColor;
+    }
+    p {
+      color: $textColor;
+    }
+  }
 
   .icon {
     width: 60px;
@@ -17,7 +37,6 @@
     margin: 20px 0;
 
     .img {
-      //width: 55%;
       font-size: 30px;
       color: $primaryColor;
       transform: rotate(-45deg)
