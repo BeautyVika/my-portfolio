@@ -19,11 +19,12 @@ export const ContactForm: FC = () => {
         },
         validationSchema: validationSchema,
         onSubmit: (values) => {
-            axios.post('https://gmail-nodejs-one.vercel.app/sendMessage', {
-                name: values.name,
+            axios.post('https://node-api-vercel-orcin.vercel.app/sendMessage',{
                 email: values.email,
-                message: values.message
-            })
+                name: values.name,
+                message: values.message,
+                }
+            )
                 .then((res)=> alert('Your message has been sent'))
                 .catch((err)=> alert('Your message has not been sent'))
         }
