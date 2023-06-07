@@ -42,7 +42,7 @@
             }
         }
 
-        p {
+        .frontend {
             @include text($titleFontFamily, 1.3125rem, 400, 1.8, #dee3e4);
             @media screen and (max-width: 885px){
                 font-size: 1rem;

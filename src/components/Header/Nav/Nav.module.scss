@@ -15,7 +15,7 @@
     cursor: pointer;
     transition: all .2s ease;
     text-decoration: none;
-    @include text($titleFontFamily, 1rem, 300, 1.2, hsla(0, 0%, 98%, .9));
+    @include text($titleFontFamily, 1rem, 400, 1.2, hsla(0, 0%, 98%, .9));
 
     &:hover {
       color: $primaryColor;

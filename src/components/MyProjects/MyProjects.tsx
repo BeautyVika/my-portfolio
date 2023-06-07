@@ -10,6 +10,7 @@ import {LINKS} from "../Common/constants/constants"
 import {createProjectStyle} from "../Common/utils/utils"
 
 type ProjectsType = {
+    id: string
     title: string
     style: { backgroundImage: string }
     titleDescription: string
@@ -21,6 +22,7 @@ export const MyProjects: FC = () => {
 
     const projects: ProjectsType[] = [
         {
+            id: 'tasks-project',
             title: 'Tasks tracker',
             style: createProjectStyle(todoImg),
             titleDescription: 'Stack: React, Redux-Toolkit, Redux-thunk, TS, Formik, MUI, Axios, ' +
@@ -29,6 +31,7 @@ export const MyProjects: FC = () => {
             codeLink: LINKS.TASKS_CODE
         },
         {
+            id: 'social-network-project',
             title: 'Social network',
             style: createProjectStyle(socialImg),
             titleDescription: 'Stack: React, Redux, Redux-thunk, TS, Axios,Redux-form, Reselect, React-Router-dom',
@@ -36,6 +39,7 @@ export const MyProjects: FC = () => {
             codeLink: LINKS.SOCIAL_NETWORK_CODE
         },
         {
+            id: 'cards-project',
             title: 'Cards trainer',
             style: createProjectStyle(cardsTrainer),
             titleDescription: 'Stack: React, Redux-thunk, Redux-Toolkit, TS, Axios, ' +
@@ -52,8 +56,8 @@ export const MyProjects: FC = () => {
                 <Title mainTitle='Portfolio' title='My Projects'/>
 
                 <div className={style.projects}>
-                    {projects.map((project, index) => {
-                        return <Project key={index}
+                    {projects.map((project) => {
+                        return <Project key={project.id}
                                         title={project.title}
                                         titleDescription={project.titleDescription}
                                         demoLink={project.demoLink}

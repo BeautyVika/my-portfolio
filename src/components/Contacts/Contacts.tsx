@@ -10,10 +10,8 @@ export const Contacts: FC = () => {
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
 
                 <Title mainTitle='Contact' title='Get in touch'/>
+                <ReactTypingEffect text={'I am available for freelance work.'} className={style.text}/>
 
-                <h3>
-                    <ReactTypingEffect text={'I am available for freelance work.'}/>
-                </h3>
 
                 <form className={style.contactsForm}>
                     <input type="text" className={style.input} placeholder='Name'/>
