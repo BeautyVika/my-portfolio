@@ -23,7 +23,9 @@ export const ContactForm: FC = () => {
                 name: values.name,
                 email: values.email,
                 message: values.message
-            }).then((res)=> alert('Your message has been sent'))
+            })
+                .then((res)=> alert('Your message has been sent'))
+                .catch((err)=> alert('Your message has not been sent'))
         }
     })
     return (
