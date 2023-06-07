@@ -12,6 +12,9 @@
     .text {
       margin-bottom: 40px;
       @include text($titleFontFamily, 20px, 500, 1.2, $textColor);
+      @media screen and (max-width: 613px) {
+        font-size: 15px;
+      }
     }
 
     .contactsForm {

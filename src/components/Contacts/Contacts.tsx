@@ -8,7 +8,6 @@ export const Contacts: FC = () => {
     return (
         <div className={style.contacts}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-
                 <Title mainTitle='Contact' title='Get in touch'/>
                 <ReactTypingEffect text={'I am available for freelance work.'} className={style.text}/>
                 <p className={style.text}>
