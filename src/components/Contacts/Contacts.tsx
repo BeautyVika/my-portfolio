@@ -3,6 +3,8 @@ import style from './Contacts.module.scss'
 import styleContainer from "../Common/Styles/Container.module.scss"
 import {Title} from "../Common/components/Title/Title"
 import ReactTypingEffect from "react-typing-effect"
+import {ContactForm} from "../Contacts/ContactForm/ContactForm"
+
 
 export const Contacts: FC = () => {
     return (
@@ -17,13 +19,13 @@ export const Contacts: FC = () => {
                     Email: vikachk54@gmail.com
                 </p>
 
-
-                <form className={style.contactsForm}>
-                    <input type="text" className={style.input} placeholder='Name'/>
-                    <input type="text" className={style.input} placeholder='E-mail'/>
-                    <textarea className={style.text} placeholder='Tell me more about you needs...'/>
-                    <button type="submit" className={style.btn}>Send message</button>
-                </form>
+                <ContactForm/>
+                {/*<form className={style.contactsForm}>*/}
+                {/*    <input type="text" className={style.input} placeholder='Name'/>*/}
+                {/*    <input type="text" className={style.input} placeholder='E-mail'/>*/}
+                {/*    <textarea className={style.text} placeholder='Tell me more about you needs...'/>*/}
+                {/*    <button type="submit" className={style.btn}>Send message</button>*/}
+                {/*</form>*/}
             </div>
 
         </div>
