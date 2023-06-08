@@ -19,7 +19,7 @@ export const ContactForm: FC = () => {
         },
         validationSchema: validationSchema,
         onSubmit: (values) => {
-            axios.post('https://node-api-vercel-orcin.vercel.app/sendMessage',{
+            axios.post('https://node-api-vercel-six-gamma.vercel.app/sendMessage',{
                 email: values.email,
                 name: values.name,
                 message: values.message,
