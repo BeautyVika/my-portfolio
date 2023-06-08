@@ -1,8 +1,9 @@
-import React, {FC} from "react"
+import React, {FC, useState} from "react"
 import style from '../Contacts.module.scss'
 import {useFormik} from "formik"
 import {validationSchema} from "../../Common/utils/validationShema"
-import axios from "axios";
+import axios from "axios"
+import {InfoSnackBar} from "../../Common/components/SnackBar/InfoSnackBar"
 
 type Values = {
     name: string
@@ -11,6 +12,11 @@ type Values = {
 }
 
 export const ContactForm: FC = () => {
+    const [snackbarMessage, setSnackbarMessage] = useState<string>('')
+    const [snackbarShow, setSnackbarShow] = useState<boolean>(false)
+    const [snackbarType, setSnackbarType] = useState<'success' | 'error'>('success')
+    const [onDisabled, setOnDisabled] = useState<boolean>(false)
+
     const formik = useFormik<Values>({
         initialValues: {
             email: '',
@@ -63,6 +69,8 @@ export const ContactForm: FC = () => {
                     Send message
                 </button>
             </form>
+
+            <InfoSnackBar message={snackbarMessage} type={snackbarType} show={snackbarShow}/>
         </>
     )
 }
