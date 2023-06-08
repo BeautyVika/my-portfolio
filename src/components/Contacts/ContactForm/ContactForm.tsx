@@ -19,7 +19,7 @@ export const ContactForm: FC = () => {
         },
         validationSchema: validationSchema,
         onSubmit: (values) => {
-            axios.post('https://node-api-vercel-six-gamma.vercel.app/sendMessage',{
+            axios.post('https://node-api-vercel-contact.vercel.app/sendMessage',{
                 email: values.email,
                 name: values.name,
                 message: values.message,
@@ -44,7 +44,7 @@ export const ContactForm: FC = () => {
                     type="text"
                     name='email'
                     className={style.input}
-                    placeholder='E-mail'
+                    placeholder='Enter your email to contact'
                     value={formik.values.email}
                     onChange={formik.handleChange}
                 />
