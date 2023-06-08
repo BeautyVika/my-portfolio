@@ -7,7 +7,6 @@
   .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
-    flex-wrap: nowrap;
 
     .projects {
       width: 100%;
@@ -17,6 +16,10 @@
       align-items: flex-start;
       @media screen and (max-width: 1254px) {
         justify-content: center;
+        align-items: center;
+      }
+      @media screen and (max-width: 438px) {
+        width: 50%;
       }
     }
   }
