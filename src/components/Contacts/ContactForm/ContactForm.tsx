@@ -50,7 +50,7 @@ export const ContactForm: FC = () => {
                 />
                 <textarea
                     name='message'
-                    className={style.text}
+                    className={`${style.text} ${style.input}`}
                     placeholder='Tell me more about you needs...'
                     value={formik.values.message}
                     onChange={formik.handleChange}

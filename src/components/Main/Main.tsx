@@ -16,7 +16,8 @@ export const Main: FC = () => {
                 <div className={style.greeting}>
                     <Fade cascade>
                         <span className={style.titleGreeting}>Hello! My name is</span>
-                        <h1>Victoria Petuchova</h1>
+                        <h1>Victoria</h1>
+                        <h1> Petuchova</h1>
                         <ReactTypingEffect text={'FRONT-END DEVELOPER'} className={style.frontend}/>
                     </Fade>
                 </div>

@@ -35,8 +35,10 @@
         h1 {
             margin: 0;
             text-transform: uppercase;
-            text-decoration: underline #20c997;
-            @include text($titleFontFamily, 4rem, 600, 1.3, $textColor);
+            background-image: linear-gradient(145deg, $primaryColor, #a2db70);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            @include text($titleFontFamily, 4rem, 600, 1.3, $primaryColor);
             @media screen and (max-width: 885px){
                font-size: 1.8rem;
             }
@@ -53,7 +55,7 @@
         width: 50vh;
         height: 70vh;
         border-radius: 50%;
-        background-color: #20c997;
+        background-image: linear-gradient(145deg, $primaryColor, #a2db70);
         z-index: 1;
         .photo {
             width: 50vh;

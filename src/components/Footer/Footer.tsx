@@ -8,12 +8,15 @@ export const Footer: FC = () => {
     return (
         <footer className={style.footer}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <p className={style.title}>All Rights Reserved. Victoria Petuhova.</p>
+                <div>
+                    <p className={style.title}>All Rights Reserved. Victoria Petuhova.</p>
+                    <p className={style.title}>Belarus, Minsk</p>
+                </div>
 
                 <div className={style.find}>
                     <p className={style.title}>Find me</p>
-                    <BsArrowRight  className={style.row} />
-                    <ContactButtonGroup />
+                    <BsArrowRight className={style.row}/>
+                    <ContactButtonGroup/>
                 </div>
 
             </div>

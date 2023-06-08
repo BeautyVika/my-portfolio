@@ -25,7 +25,7 @@ export const Project: FC<ProjectPropsType> = (props: ProjectPropsType) => {
                  onMouseLeave={onMouseLeaveHandler}>
 
                 <div className={style.imgContainer} style={props.style}>
-                    <a href={props.demoLink} className={style.link}>Demo</a>
+                    {visible && <a href={props.demoLink} className={style.link}>Demo</a>}
                 </div>
 
                 <div className={style.projectInfo}>

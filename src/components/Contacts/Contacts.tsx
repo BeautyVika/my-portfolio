@@ -4,7 +4,8 @@ import styleContainer from "../Common/Styles/Container.module.scss"
 import {Title} from "../Common/components/Title/Title"
 import ReactTypingEffect from "react-typing-effect"
 import {ContactForm} from "../Contacts/ContactForm/ContactForm"
-
+import {AiFillPhone} from "@react-icons/all-files/ai/AiFillPhone"
+import {AiOutlineMail} from "@react-icons/all-files/ai/AiOutlineMail"
 
 export const Contacts: FC = () => {
     return (
@@ -13,19 +14,12 @@ export const Contacts: FC = () => {
                 <Title mainTitle='Contact' title='Get in touch'/>
                 <ReactTypingEffect text={'I am available for freelance work.'} className={style.text}/>
                 <p className={style.text}>
-                    Connect with me via phone: 8029 - 667 - 23 -75
+                    Connect with me via phone: <AiFillPhone style={{color: '#20c997', fontSize: '25px'}}/> 8029 - 667 - 23 -75
                 </p>
                 <p className={style.text}>
-                    Email: vikachk54@gmail.com
+                    Email: <AiOutlineMail style={{color: '#20c997', fontSize: '25px'}}/> vikachk54@gmail.com
                 </p>
-
                 <ContactForm/>
-                {/*<form className={style.contactsForm}>*/}
-                {/*    <input type="text" className={style.input} placeholder='Name'/>*/}
-                {/*    <input type="text" className={style.input} placeholder='E-mail'/>*/}
-                {/*    <textarea className={style.text} placeholder='Tell me more about you needs...'/>*/}
-                {/*    <button type="submit" className={style.btn}>Send message</button>*/}
-                {/*</form>*/}
             </div>
 
         </div>
