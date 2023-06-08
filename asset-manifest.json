@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.e2073f25.css",
-    "main.js": "/my-portfolio/static/js/main.0fcaa228.js",
+    "main.css": "/my-portfolio/static/css/main.1343ab4c.css",
+    "main.js": "/my-portfolio/static/js/main.118d84b8.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/pexels-karolina-grabowska-8947637.jpg": "/my-portfolio/static/media/pexels-karolina-grabowska-8947637.95e9899c9dd3bee1c92e.jpg",
     "static/media/pexels-omar-ramírez-vallejo-15986797.jpg": "/my-portfolio/static/media/pexels-omar-ramírez-vallejo-15986797.76cb54b474812b8d1488.jpg",
     "static/media/pexels-dominika-roseclay-2382242.jpg": "/my-portfolio/static/media/pexels-dominika-roseclay-2382242.75a394cb411a5614472a.jpg",
     "static/media/myPhoto.png": "/my-portfolio/static/media/myPhoto.48b36d65456b15b6e4ef.png",
     "index.html": "/my-portfolio/index.html",
-    "main.e2073f25.css.map": "/my-portfolio/static/css/main.e2073f25.css.map",
-    "main.0fcaa228.js.map": "/my-portfolio/static/js/main.0fcaa228.js.map",
+    "main.1343ab4c.css.map": "/my-portfolio/static/css/main.1343ab4c.css.map",
+    "main.118d84b8.js.map": "/my-portfolio/static/js/main.118d84b8.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2073f25.css",
-    "static/js/main.0fcaa228.js"
+    "static/css/main.1343ab4c.css",
+    "static/js/main.118d84b8.js"
   ]
 }
