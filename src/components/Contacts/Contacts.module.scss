@@ -49,12 +49,11 @@
       }
 
       .text {
-        min-height: calc(1.5em + 0.75rem + 2px);
+        //min-height: calc(1.5em + 0.75rem + 2px);
         @media screen and (max-width: 885px) {
           font-size: 10px;
         }
       }
-
 
       .btn {
         @include text($titleFontFamily, 1rem, 400, 1.5, $textColor);
@@ -76,6 +75,21 @@
           width: 80%;
           font-size: 0.8rem;
         }
+      }
+      .disable {
+        color: black;
+        background-color: $bgSecondColor;
+        border-color: black;
+        &:hover{
+          color: $textColor;
+          background-color: $bgSecondColor;
+          border: 1px solid black;
+          transition: all .5s ease;
+        }
+      }
+      .error {
+        width: 100%;
+        color: #c52727;
       }
     }
   }
