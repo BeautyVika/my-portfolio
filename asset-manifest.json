@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.9581a35c.css",
-    "main.js": "/my-portfolio/static/js/main.08231f31.js",
+    "main.css": "/my-portfolio/static/css/main.e2073f25.css",
+    "main.js": "/my-portfolio/static/js/main.0fcaa228.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/pexels-karolina-grabowska-8947637.jpg": "/my-portfolio/static/media/pexels-karolina-grabowska-8947637.95e9899c9dd3bee1c92e.jpg",
+    "static/media/pexels-omar-ramírez-vallejo-15986797.jpg": "/my-portfolio/static/media/pexels-omar-ramírez-vallejo-15986797.76cb54b474812b8d1488.jpg",
+    "static/media/pexels-dominika-roseclay-2382242.jpg": "/my-portfolio/static/media/pexels-dominika-roseclay-2382242.75a394cb411a5614472a.jpg",
     "static/media/myPhoto.png": "/my-portfolio/static/media/myPhoto.48b36d65456b15b6e4ef.png",
-    "static/media/tasks_traker.png": "/my-portfolio/static/media/tasks_traker.431218b4f4a1174794c7.png",
-    "static/media/cards_trainer.png": "/my-portfolio/static/media/cards_trainer.6f66d05ee718a961c6fa.png",
-    "static/media/social_network.png": "/my-portfolio/static/media/social_network.b6e4731aad87b16e2c22.png",
     "index.html": "/my-portfolio/index.html",
-    "main.9581a35c.css.map": "/my-portfolio/static/css/main.9581a35c.css.map",
-    "main.08231f31.js.map": "/my-portfolio/static/js/main.08231f31.js.map",
+    "main.e2073f25.css.map": "/my-portfolio/static/css/main.e2073f25.css.map",
+    "main.0fcaa228.js.map": "/my-portfolio/static/js/main.0fcaa228.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9581a35c.css",
-    "static/js/main.08231f31.js"
+    "static/css/main.e2073f25.css",
+    "static/js/main.0fcaa228.js"
   ]
 }
