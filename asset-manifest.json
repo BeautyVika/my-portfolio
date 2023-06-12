@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.1343ab4c.css",
-    "main.js": "/my-portfolio/static/js/main.3fed3272.js",
+    "main.js": "/my-portfolio/static/js/main.7123c539.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/pexels-karolina-grabowska-8947637.jpg": "/my-portfolio/static/media/pexels-karolina-grabowska-8947637.95e9899c9dd3bee1c92e.jpg",
     "static/media/pexels-omar-ramírez-vallejo-15986797.jpg": "/my-portfolio/static/media/pexels-omar-ramírez-vallejo-15986797.76cb54b474812b8d1488.jpg",
@@ -9,11 +9,11 @@
     "static/media/myPhoto.png": "/my-portfolio/static/media/myPhoto.48b36d65456b15b6e4ef.png",
     "index.html": "/my-portfolio/index.html",
     "main.1343ab4c.css.map": "/my-portfolio/static/css/main.1343ab4c.css.map",
-    "main.3fed3272.js.map": "/my-portfolio/static/js/main.3fed3272.js.map",
+    "main.7123c539.js.map": "/my-portfolio/static/js/main.7123c539.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1343ab4c.css",
-    "static/js/main.3fed3272.js"
+    "static/js/main.7123c539.js"
   ]
 }
