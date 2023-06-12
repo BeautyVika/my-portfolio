@@ -11,7 +11,7 @@ export const LINKS ={
     Codewars: 'https://www.codewars.com/users/BeautyVika',
     SOCIAL_NETWORK_DEMO: 'https://beautyvika.github.io/social-network/',
     SOCIAL_NETWORK_CODE: 'https://github.com/BeautyVika/social-network',
-    TASKS_DEMO: 'https://github.com/BeautyVika/Tasks-Tracker',
+    TASKS_DEMO: 'https://beautyvika.github.io/Tasks-Tracker/',
     TASKS_CODE: 'https://github.com/BeautyVika/Tasks-Tracker',
     CARDS_DEMO: 'https://beautyvika.github.io/cards-training/',
     CARDS_CODE: 'https://beautyvika.github.io/cards-training/',
