@@ -11,9 +11,9 @@ import {NavLink} from "react-router-dom";
 export const ContactButtonGroup: FC = () => {
     return (
         <div className={style.contactButtonGroup}>
-            {/*<a href=''>*/}
-            {/*    <AiFillLinkedin className={style.icon}/>*/}
-            {/*</a>*/}
+            <a href={LINKS.LINKEDIN}>
+                <AiFillLinkedin className={style.icon}/>
+            </a>
             <NavLink to={PATH.CONTACT}>
                 <FiMail className={style.icon}/>
             </NavLink>

@@ -15,4 +15,5 @@ export const LINKS ={
     TASKS_CODE: 'https://github.com/BeautyVika/Tasks-Tracker',
     CARDS_DEMO: 'https://beautyvika.github.io/cards-training/',
     CARDS_CODE: 'https://beautyvika.github.io/cards-training/',
+    LINKEDIN: 'https://www.linkedin.com/in/viktoria-petuchova-2829a3274/'
 }
