@@ -6,7 +6,7 @@ import {FaTelegram} from "@react-icons/all-files/fa/FaTelegram"
 import {SiCodewars} from "@react-icons/all-files/si/SiCodewars"
 import {AiFillLinkedin} from "@react-icons/all-files/ai/AiFillLinkedin"
 import {LINKS, PATH} from "../Common/constants/constants"
-import {NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom"
 
 export const ContactButtonGroup: FC = () => {
     return (
@@ -26,7 +26,6 @@ export const ContactButtonGroup: FC = () => {
             <a href={LINKS.Codewars}>
                 <SiCodewars className={style.icon}/>
             </a>
-
         </div>
     )
 }

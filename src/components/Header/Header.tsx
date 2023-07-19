@@ -19,7 +19,6 @@ export const Header: FC<HeaderPropsType> = ({handleOpen}) => {
             <div className={style.mobile}>
                 <GiHamburgerMenu onClick={handleOpen} className={style.burger}/>
             </div>
-
             <ContactButtonGroup/>
         </div>
     )

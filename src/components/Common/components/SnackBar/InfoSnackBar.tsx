@@ -1,5 +1,5 @@
 import React, {FC, useEffect, useState} from 'react'
-import Snackbar from '@mui/material/Snackbar';
+import Snackbar from '@mui/material/Snackbar'
 import MuiAlert, { AlertProps } from '@mui/material/Alert'
 
 type InfoSnackBarPropsType = {

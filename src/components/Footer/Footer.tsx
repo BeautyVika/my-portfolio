@@ -13,7 +13,6 @@ export const Footer: FC = () => {
                 </div>
 
                 <ContactButtonGroup/>
-
             </div>
         </footer>
     )
